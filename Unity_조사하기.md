@@ -1,14 +1,14 @@
 # Unity_Camp
 
-### 사전캠프 1일차(25.03.20)
+## 사전캠프 1일차(25.03.20)
 #### Unity를 이용해 만든 프로젝트<br>
 / | 서비스 명 | 장르, 분류 | 제작사
 -|-|-|-
-첫 번째 프로젝트 |The Human:Fall Flat| 퍼즐,어드벤처 |No Brakes Games|
-두 번째 프로젝트 |OverCooked|액션,캐쥬얼|Ghost Town Games Ltd.|
-세 번째 프로젝트 |Super Bunny Man |액션|Catobyte|
-네 번째 프로젝트 |Lethal Company |액션,어드벤처|Zeekerss|
-다섯 번째 프로젝트 |Headbangers: Rhythm Royale|캐쥬얼|Glee_Cheese Studio|
+첫번째 프로젝트 |The Human:Fall Flat| 퍼즐,어드벤처 |No Brakes Games|
+두번째 프로젝트 |OverCooked|액션,캐쥬얼|Ghost Town Games Ltd.|
+세번째 프로젝트 |Super Bunny Man |액션|Catobyte|
+네번째 프로젝트 |Lethal Company |액션,어드벤처|Zeekerss|
+다섯번째 프로젝트 |Headbangers: Rhythm Royale|캐쥬얼|Glee_Cheese Studio|
 #### 위 프로젝트들의 공통된 특징이 있나요?<br>
 : 상대적으로 작은 용량, 멀티플레이 가능,챕터 형식의 미니게임 구성이 많다. <br>
 #### 여러분이 생각하는 Unity의 강점은 뭐라고 생각하나요?<br>
@@ -18,3 +18,32 @@
 * 특징 : 좋은 풍경, 캐릭터 육성을 통한 도전 과제 성취, 업적이나 도감 수집, 이스터에그 <br>
 * 그 이유는? : 재미와 힐링을 주는 게임을 만들고 싶어서 <br>
 
+### [내일배움캠프 사전캠프] + C# 문법 기초 1차
+1. 오늘 학습 키워드<br>
+: 데이터
+2. 오늘 학습한 내용을 나만의 언어로 정리하기<br>
+   * 코드 추가 메소드 : Console.WriteLine("asdf"); -> asdf
+   * 숫자 결과 값 표현 : Console.WriteLine(10/2); -> 5
+   * 새 프로젝트 추가 : 솔루션 탐색기(솔루션)우클릭 -> 새 프로젝트 추가
+   - (새 프로젝트)콘솔 실행 시 '시작 항목' 변경
+   
+     -----------------------------------------------------------------------------------
+   * **데이터형식 변수이름 ;** _/* string Name = "Unity"; */_
+   * 데이터형식 종류
+     + string : 문자
+     + int : 숫자(정수)
+     + float : 실수(소수점 7자리까지)
+     + double : 실수(소수점 15~16까지)
+     + char : 문자
+   * 실수의 표현 : float speed = 5.5f; _/* 숫자 뒤에 아무 표시가 없으면 double로 인식 */_
+   * 하나의 변수를 사용해도 저장된 값이 달라지면 다른 값이 나옴.<br>
+
+         string Name = "Unity";
+         Name = "C#";
+         Console.WriteLine(Name);
+         콘솔값 => C#
+     * 
+3. 학습하며 겪었던 문제점 & 에러<br>
+: 아직 없음.
+5. 내일 학습할 것은 무엇인지<br>
+: 데이터 형식 추가
